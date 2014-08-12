@@ -41,6 +41,8 @@ module LinkedIn
                                 :unfollow_company,
                                 :add_company_share,
                                 :company_statistics,
+                                :company_historical_statistics,
+                                :company_historical_status_update_statistics,
                                 :company_updates_likes,
                                 :company_updates_comments
 
