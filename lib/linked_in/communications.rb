@@ -34,7 +34,7 @@ module LinkedIn
         }
       }
 
-      post(path, message)
+      post(path, JSON.generate(message), { 'Content-Type' => 'application/json' })
     end
   end
 end
